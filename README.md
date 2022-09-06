@@ -1,5 +1,5 @@
-# ZGUI v0.1
-It contains a clone of [zgui](https://github.com/michal-z/zig-gamedev/tree/main/libs/zgpu) by [michal-z](https://github.com/michal-z) along with custom bindings inspired by michal-z's wgpu bindings.
+# ZGUI v0.3
+This repo contains custom zig bindings for imgui
 
 ## Getting Started
 Clone this repo, copy it to `root` of your project(`root/lib` is more preferred)
@@ -14,7 +14,7 @@ exe.addPackage(zgui.vulkan(exe)); //Add Vulkan support for Imgui
 ## To run Examples
 Please make sure the contents of this repository(excluding examples) are copied to examples/deps/zgui/
 
-## Currently Supported
+## Currently Supported Backends
 - OpenGL
 - GLFW (mach-glfw)
 - Vulkan
@@ -23,3 +23,7 @@ Please make sure the contents of this repository(excluding examples) are copied 
 - DirectX 10
 - DirectX 11
 + more
+
+## Special Thanks
+[Michal-z](https://github.com/michal-z) : For inspiring me with [zgui](https://github.com/michal-z/zig-gamedev/tree/main/libs/zgpu) bindings for wgpu.
+[SpexGuy](https://github.com/SpexGuy) : For imgui bindings for Zig.
