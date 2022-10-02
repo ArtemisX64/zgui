@@ -1,3 +1,6 @@
 [submodule "examples/deps/mach-glfw"]
 	path = examples/deps/mach-glfw
 	url = https://github.com/hexops/mach-glfw.git
+[submodule "libs/zig-imgui"]
+	path = libs/zig-imgui
+	url = https://github.com/SpexGuy/Zig-ImGui.git
